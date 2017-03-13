@@ -67,7 +67,7 @@ var removeNote = (title) => {
   var filteredNotes = notes.filter((note) => note.title !== title);
   saveNotes(filteredNotes);
 
-  return notes.length !== fileterdNotes.length;
+  return notes.length !== filteredNotes.length;
 };
 
 var logNote = (note) => {
